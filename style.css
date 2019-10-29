@@ -39,7 +39,7 @@ img{
     letter-spacing: 2px;
     right: 100px;
     line-height: 80px;
-    z-index: 2;
+    z-index: 1;
 }
 .menu{
     position: fixed;
@@ -54,17 +54,17 @@ img{
 }
 .header{
     position: absolute;
-    top: 46%;
-    left: 32%;
+    top: 30%;
+    left: 30%;
     transform: trasnlate(-50%, -50%);
     z-index:1;
 }
-.m17{
+.ml7{
     position: relative;
     font-weight: 900;
     font-size: 3.7em;
 }
-.m17 text-wrapper{
+.ml7 .text-wrapper{
     position: relative;
     display: inline-block;
     padding-top: 0.2em;
@@ -72,7 +72,7 @@ img{
     padding-bottom: 0.1em;
     overflow:hidden;
 }
-.m17 .letter{
+.ml7 .letter{
     transform-origin: 0% 100%;
     display: inline-block;
     line-height: 1em;
@@ -83,7 +83,7 @@ h1{
     font-weight: bolder !important;
     font-size: 46px !important;
     margin-bottom: 0px;
-    text-transform: uppercase;
+    text-transform: uppercase !important;
 }
 #tagline{
     width: 640px;
@@ -148,7 +148,7 @@ button {
     font-weight: 100;
     margin-right: 2em;
     bottom: 40px;
-    right: 0%;
+    right: 0;
 }
 .loading-screen {
     position: absolute;
@@ -180,5 +180,16 @@ button {
     }
     to {
         transform: rotate(360deg);
+    }
+}
+@media(max-width: 900px) {
+    .loading-screen {
+        display: none;
+    }
+    .ring img {
+        display: none;
+    }
+    .header p, button, .media, h1 {
+        display: none;
     }
 }
