@@ -14,11 +14,97 @@ img{
 }
 .logo{
     position: fixed;
-    font-family: Poppins;
+    font-family: 'Poppins';
     line-height: 80px;
     margin-left: 2em;
     color: #fff;
     font-size: 15px;
     letter-spacing: 3px;
     font-weight: bold;
+    text-transform: uppercase;
+    z-index: 1;
+}
+.logo ion-icon{
+    color: #6adb9d;
+    margin-right: 7px;
+    position: relative;
+    top: 1px;
+    z-index: 1;
+}
+.contact{
+    position: fixed;
+    color: rgb(124, 124, 124);
+    font-size: 12px;
+    font-family: 'Poppins';
+    letter-spacing: 2px;
+    right: 100px;
+    line-height: 80px;
+    z-index: 2;
+}
+.menu{
+    position: fixed;
+    color: #6adb9d;
+    right: 2em;
+    top: 4px;
+    line-height: 80px;
+    z-index: 1;
+}
+.menu ion-icon{
+    font-size: 24px;
+}
+.header{
+    position: absolute;
+    top: 46%;
+    left: 32%;
+    transform: trasnlate(-50%, -50%);
+    z-index:1;
+}
+.m17{
+    position: relative;
+    font-weight: 900;
+    font-size: 3.7em;
+}
+.m17 text-wrapper{
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow:hidden;
+}
+.m17 .letter{
+    transform-origin: 0% 100%;
+    display: inline-block;
+    line-height: 1em;
+}
+h1{
+    color: #fff;
+    font-family: 'Roboto';
+    font-weight: bolder !important;
+    font-size: 46px !important;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+#tagline{
+    width: 640px;
+}
+p {
+    color: rgb(95, 95, 95);
+    font-weight: 200;
+    font-family: 'Roboto';
+    line-height: 28px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.buttons {
+    margin-top: 40px;
+}
+button {
+    margin-right: 10px !important;
+    padding: 14px 30px;
+    border: none;
+    color: #fff;
+    font-size: 12px !important;
+    letter-spacing: 2px;
+    font-weight: 300;
 }
